@@ -1,0 +1,110 @@
+.image{
+    width: 15px;
+    height: 15px;
+}
+.but{
+    min-width: 80px;
+}
+
+@media (max-width:650px){
+    .but{
+        min-width: 50px;
+    }
+}
+
+input{
+    background: black;
+    color  :white;
+}  
+
+.success-message1{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+    background: rgba(141, 189, 69,0.15);
+    color: green;
+    margin: 7px 0;
+}
+.success-message1 i{
+margin-right: 3px;
+
+}
+
+.err-message1{
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    background: rgba(189, 97, 69, 0.15);
+    color: red;
+    margin: 5px 0;
+}
+.err-message1 i{
+margin-right: 3px;
+padding-top: 3px;
+padding-bottom: -3px;
+
+}
+.del-c{
+    width:20px;
+    height: 20px;
+    background: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.del-c:hover , .del-c:focus, .del-c:active {
+background: red;
+transition: all 0.1s ;
+}
+.image_in1{
+    gap: 2px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+}
+.progress{
+    width: 100%;
+    height: 100px;
+    background:rgba(0,0,0,.3) ;
+    display: flex;
+    flex-direction: column;
+}
+.del{
+    height: 20px;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: flex-end;
+    color:white;
+    padding-right: 5px;
+}
+.del span{
+    width: 15px;
+    height: 15px;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    font-size: 10px;
+}
+.del span :hover , .del span :focus , .del span:active{
+    transform: scale(1.1);
+    color: red;
+}
+
+.pro{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+
+}
+

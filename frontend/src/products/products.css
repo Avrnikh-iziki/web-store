@@ -1,0 +1,145 @@
+
+.top-but{
+    margin-top: 2rem;
+    display: flex;
+    width: 100%;
+    min-height: 40px;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.top-but a {
+    background: black;
+    letter-spacing: 3px;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    width: 19.8%;
+}
+
+.top-but a:hover, .top-but a:focus, .top-but a:active{
+    background: white;
+    color: black;
+    transform: scaleX(1.02);
+    transition: 0.3s ease-out;
+    border :1px solid black;
+}
+.c{
+    min-height: 83vh;
+}
+.co{
+    grid-gap: 8px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+}
+.my-product{
+    background: black;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5px;
+
+}
+.be-image{
+    width: 100%;
+    height: 130px;
+    background-size:100% 100% ;
+}
+
+.name{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align: center;
+    padding:5px 2px 0 2px;
+    font-size: 12px;
+    
+}
+.name:hover, .name:focus, .name:active{
+    color:red;
+    transform: scale(0.9);
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    max-width: 100px;
+    justify-content: space-between;
+}
+.details{
+    background: rgba(0,0,0,0.3);
+   width: 100%;
+   height: 100%;
+   display: flex;
+   padding-left: 8px;
+    align-items: flex-end;
+    justify-content: center;
+}
+.details:hover{
+    background:rgba(0,0,0,0.1); ;
+}
+
+.deletbtn{
+    background:none;
+    margin-bottom: 7px;
+    color: black;
+    width: 40px;
+    height: 20px;
+    border: none;
+    margin-right: 8px;
+    border: 1px solid black;
+    background :rgba(255,255,255,0.5);
+}
+.deletbtn:hover{
+    transform: scale(1.2);
+    color: white;
+    background: rgba(0,0,0,0.5);
+    border: 1px solid white;
+    
+}
+a {
+color:black;
+}
+a:hover , a:active, a:focus{
+    color: black;
+}
+
+.cate{
+    display:grid; 
+    grid-gap: 4px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(130px, max-content));
+    justify-content: center;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-align: center;
+    padding: 1rem 5px;
+    margin-bottom:1rem ;
+}
+
+.cat-items{
+
+   color: white;
+   background: black;
+   padding: 3px 1px 1px 1px;
+   border-radius: 3px;
+   cursor: pointer;
+   font-size: 12px;
+}
+.cat-items:hover,
+.cat-items:focus,
+.cat-items:active {
+    transform: scale(1.05);
+    background: white;
+    color: black;
+    border:1px solid black;
+    transition: all 0.2s ease-out;
+}
+

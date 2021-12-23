@@ -1,0 +1,102 @@
+.l{
+    color: white;
+}
+.ta{
+    width: 100%; 
+}
+
+.b{
+    margin-top:100px ;
+    min-height: 78vh;
+}
+.success-message{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    background: rgba(141, 189, 69,0.15);
+    color: green;
+    margin: 7px 0;
+}
+.success-message i{
+margin-right: 3px;
+}
+
+.err-message{
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    background: rgba(189, 97, 69, 0.15);
+    color: red;
+    margin: 5px 0;
+}
+.err-message i{
+margin-right: 5px;
+}
+
+/*.lod-image{
+    height: 150px;
+    margin: 20px 1px 1px 1px;
+}
+.image_in{
+    width: 180px;
+    height: 180px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}*/
+
+.image_in1{
+    gap: 2px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+}
+.progress{
+    width: 100%;
+    height: 100px;
+    background:rgba(0,0,0,.3) ;
+    display: flex;
+    flex-direction: column;
+}
+.del{
+    height: 20px;
+    width: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: flex-end;
+    color:white;
+    padding-right: 5px;
+}
+.del span{
+    width: 15px;
+    height: 15px;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    font-size: 10px;
+}
+.del span :hover , .del span :focus , .del span:active{
+    transform: scale(1.1);
+    color: red;
+}
+
+.pro{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+
+}
+
+
+
+ 

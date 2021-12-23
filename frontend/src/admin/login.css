@@ -1,0 +1,101 @@
+.dar{
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+    padding-top: 150px;
+}
+.App {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    
+    background-size: cover;
+    overflow: auto;
+    color:blanchedalmond;
+    
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+  .App button {
+    padding:5px 25px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .p-2 input{
+    border:2px solid black ;
+    width: 250px;
+    border-radius: 3px;
+    height: 30px;
+    text-align: center;
+  }
+  .lin {
+    color: white;
+    font-family:monospace;
+  }
+
+  .success-message{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    background: rgba(141, 189, 69,0.15);
+    color: green;
+    margin: 7px 0;
+}
+.success-message i{
+margin-right: 3px;
+}
+
+.err-message{
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    background: rgba(189, 97, 69, 0.15);
+    color: red;
+    margin: 5px 0;
+}
+.err-message i{
+margin-right: 5px;
+}

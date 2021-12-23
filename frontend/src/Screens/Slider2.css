@@ -1,0 +1,88 @@
+
+  .slideshowSlider{
+      transition: 700ms  ease-out; 
+  }
+  img{
+    height: 100px;
+    width:100px;
+  }
+
+ .test{
+     width:100px;
+     height: 100%;
+     margin-left: 5px;
+     border:1px solid red;
+     background-size: 100% 100%;
+ }
+ .cov{
+   width:99px;
+   height: 100%;
+   background:rgba(0,0,0,0.1);
+ }
+ .cov:hover, .cov:focus, .cov:active{
+  background:rgba(0,0,0,0.05);
+ }
+ .test:hover{
+     transform: scale(0.98) ;
+ }
+ 
+ .test2{
+     display: flex;
+     flex-direction: row;
+     padding-top: 5px; 
+     height: 150px;
+     max-width:320px;
+ }
+ @media(min-width:650px){
+     .test2{
+        max-width:425px;
+     }
+ }
+ @media(min-width:777px){
+    .test2{
+       max-width:530px;
+    }
+}
+@media(min-width:1200px){
+    .test2{
+      max-width:845px;
+    }
+}
+ .test3{
+     margin-top: 1px;
+     overflow: hidden;
+   
+ }
+
+ .befor-slid-gap2{
+    margin-bottom: 1rem;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .slad-gap-in2{
+    height:10px ;
+    width: 75px;
+    margin-left:4px;
+  }
+  
+  .row-reight {
+    width: 30px;
+    margin-left: 5px;
+   display: flex;
+   justify-content: center;
+  }
+  .row-reight:hover {
+     transform: scale(1.5);
+  }
+  .row-left:hover{
+    transform: scale(1.5); 
+  }
+  .row-left{
+    width: 30px;
+    margin-right: 5px;
+    display: flex;
+   justify-content: center;
+  }

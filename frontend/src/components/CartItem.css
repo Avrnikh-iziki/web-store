@@ -1,0 +1,105 @@
+.carteitem{
+    width:100%;
+    padding: 6px 1rem 6px 6px;
+    margin-bottom: 8px;
+    display: grid;
+    grid-template-columns: 2fr 4fr 1fr 1fr 1fr 1fr;
+    gap:8px;
+    border-radius: 2px;
+    place-items: center;
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.4);
+    background: rgba(0,0,0,0.9);
+    color: white;
+    letter-spacing: 2px;
+
+}
+@media ( min-width:700px){
+    .carteitem{
+        display: grid;
+        grid-template-columns: 1fr 4fr 1fr 1fr 1fr 1fr;
+    }
+}
+@media ( max-width:300px){
+    .carteitem{
+        display: grid;
+        grid-template-columns: 4fr 4fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+.cartitem__name{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+.cartitem__name:hover{
+    transform: scale(1.2);
+}
+
+.cartitem__name a:hover {
+    color: white !important;
+}
+.cartitem__select {
+    padding: 10px 17px;
+    background:white;
+    color: black !important;
+    
+}
+.cartitem__deletbtn {
+    padding:  6px 13px;
+    color: black;
+    background: white;
+    cursor: pointer;
+    transition: all 0.1s ease-out;
+}
+.cartitem__deletbtn:hover,
+.cartitem__deletbtn:focus,
+.cartitem__deletbtn:active{
+    background: white;
+    color: red;
+    transform: scale(1.1);
+}
+
+@media (max-width:700px){
+    .cartitem__name{
+        font-size: 0.8rem;
+       
+    }
+    .cartitem__select,
+    .cartitem__deletbtn{
+        padding: 8px 13px;
+    }
+    cartitem__price{
+        font-size: 0.8rem;
+    }
+}
+
+@media(max-width:500px){
+    .cartitem__name{
+        font-size: 0.6rem;
+    }
+    .cartitem__select,
+    .cartitem__deletbtn{
+        padding: 5px 8px;
+    }
+    .cartitem__price{
+        font-size: 0.6rem;
+    }
+}
+.im{
+    width: 100%;
+    height: 100%;
+}
+.lal:hover{
+    transform: scal(2.1);
+}
+.lin-h{
+    text-decoration: none;
+    color: white;
+}
+.cartitem__image{
+    width: 50px;
+    height: 50px;
+}

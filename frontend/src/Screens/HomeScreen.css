@@ -1,0 +1,112 @@
+
+.first-image{
+ background-image: url("https://3q87le1gsko01ibim33e4wib-wpengine.netdna-ssl.com/wp-content/uploads/2017/09/reformation1-1024x683.jpg");
+ background-size: cover;
+ 
+ height: 600px;
+ margin-top: 2px;
+ background-position: 30% 10%;
+ margin-bottom: 1px;
+}
+.first-image-front{
+    width: 100%;
+    height: 50%;
+    margin-top: -22px;
+    background-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0));
+   text-align: center;
+   padding-top: 100px;
+    font-size: 30px;
+    color: #fefefe;
+    margin-top:-50px;
+}
+.homescreen{
+    max-width: 1200px;
+    margin: 5px auto;
+    letter-spacing: 2px;
+}
+.homescreen__products{
+    display: flex;
+    grid-gap: 0px 4px;
+    display: grid;
+    align-items: stretch;
+    justify-content: stretch;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+.loding{
+ text-align: center;
+ font-size: 20px;
+}
+
+.homescreen__products h2{
+     text-align: center;
+}
+
+.category{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.category-name{
+ margin-right: 2rem;
+ font-size: 20px;
+
+}
+.input{
+    background: transparent;
+    border: none;
+    color: tomato;
+}
+.input:hover,
+.input:active{
+    transform: scale(0.9);
+    color: teal;
+}
+@media(max-width:600px) {
+    .category{
+        display: none;
+    }
+}
+
+.search{
+    display: flex;
+    max-width: 700px;
+    justify-content:space-between;
+    align-items: center;
+    background: black;
+    margin-top: 1px;
+}
+.in{
+    border:1px solid white;
+    border-radius: 0px;
+    background: black;
+    color:white;
+    padding: 2px 10px;
+    font-size: 12px;
+
+}
+
+.in:hover, .in:active, .in:focus {
+    background: white;
+    color: black;
+    transform: scale(0.9) ;
+    cursor: pointer;
+}
+.i-search{
+    flex: 0.99;
+}
+
+.no-border {
+    border-top: 0;
+    border-left: 0; 
+    border-right: 0;
+    border-radius: 0px;
+    box-shadow: none;
+}
+.serch{
+    letter-spacing: 6px;
+}
